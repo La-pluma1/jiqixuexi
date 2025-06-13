@@ -1,9 +1,5 @@
 --index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
-# 基础依赖
-python==3.11.5
-pip==23.3.1  # 锁定 pip 版本，避免与新 pip 版本兼容性问题
-
 # 核心数据处理
 pandas==1.5.3
 numpy==1.24.3
@@ -26,8 +22,8 @@ pillow==9.5.0
 tqdm==4.65.0
 pyyaml==6.0.1
 
-# Markdown 相关（修复安装错误）
+# Markdown 相关
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pygments==2.15.1
-rich==13.5.3  # 回退到稳定版本，避免与其他库冲突
+rich==13.5.3  # 回退到稳定版本
